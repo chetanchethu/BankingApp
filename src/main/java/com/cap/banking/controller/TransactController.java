@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cap.banking.dao.Customer;
+import com.cap.banking.model.Customer;
 import com.cap.banking.service.BankingService;
 
 @RestController

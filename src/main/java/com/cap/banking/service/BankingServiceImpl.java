@@ -2,7 +2,7 @@ package com.cap.banking.service;
 
 import org.springframework.stereotype.Service;
 
-import com.cap.banking.dao.Customer;
+import com.cap.banking.model.Customer;
 
 @Service
 public class BankingServiceImpl implements BankingService {

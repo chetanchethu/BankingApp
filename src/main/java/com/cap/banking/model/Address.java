@@ -1,4 +1,4 @@
-package com.cap.banking.dao;
+package com.cap.banking.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
