@@ -13,7 +13,7 @@ import com.cap.banking.service.BankingService;
 
 @RestController
 @RequestMapping(value = "/banking/customer")
-public class TransactController {
+public class KYCController {
 	
 	@Autowired
 	BankingService service;
@@ -22,5 +22,5 @@ public class TransactController {
 	public ResponseEntity<Customer> createAccount(@RequestBody Customer customer) {
 		return null;
 	}
-
+	
 }
